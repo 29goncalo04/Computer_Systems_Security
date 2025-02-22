@@ -1,0 +1,6 @@
+    Os programas 'otp.py' e 'bad_otp.py' geram as chaves e funcionam corretamente. 
+    O 'bad_otp.py' usa um gerador de números pseudoaleatórios inseguro 
+(random.seed(random.randbytes(2))), o que pode resultar na repetição de chaves entre execuções. 
+Isso compromete a segurança da cifra OTP, tornando-a previsível e vulnerável a ataques. 
+    Já 'otp.py' utiliza os.urandom(), garantindo que as chaves sejam verdadeiramente aleatórias 
+e únicas a cada execução.

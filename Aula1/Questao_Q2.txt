@@ -1,0 +1,5 @@
+    O ataque não contradiz a segurança do One-Time Pad porque a cifra continua segura 
+se for usada corretamente. O problema aqui está na geração previsível da chave. 
+    Como a função usada para criar a chave tem apenas 65 536 possibilidades, 
+é possível testar todas até encontrar a correta. 
+    Se a chave fosse verdadeiramente aleatória e usada apenas uma vez, o ataque não funcionaria.
